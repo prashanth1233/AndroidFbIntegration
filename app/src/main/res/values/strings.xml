@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AndroidFbIntegration</string>
+    <string name="app_id">1282322825150908</string>
+    <string name="fname_title">FirstName</string>
+    <string name="mail_title">Mail ID</string>
+    <string name="facebook_id">Facebook ID</string>
+</resources>

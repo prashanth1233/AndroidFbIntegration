@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+    tools:context="com.example.prasanth.androidfbintegration.ProfilePageActivity">
+
+    <TextView
+        android:id="@+id/fNameTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fname_title"/>
+
+    <TextView
+        android:id="@+id/fName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/fNameTitle"
+        android:paddingLeft="40dp" />
+
+    <TextView
+        android:id="@+id/lNameTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fName"
+        android:text="@string/mail_title" />
+
+    <TextView
+        android:id="@+id/lName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fName"
+        android:layout_toRightOf="@+id/lNameTitle"
+        android:paddingLeft="40dp" />
+
+    <TextView
+        android:id="@+id/idTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lName"
+        android:text="@string/facebook_id"/>
+    <TextView
+        android:id="@+id/facebookId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lName"
+        android:layout_toRightOf="@id/idTitle"
+        android:paddingLeft="40dp"/>
+
+    <ImageView android:id="@+id/profilePic"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/facebookId"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>
